@@ -1,4 +1,4 @@
-import React from 'react';
+
 import '../../css/Header/Header.module.css'
 
 const Header = () => {
