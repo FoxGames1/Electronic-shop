@@ -1,9 +1,15 @@
 .header {
-    
+    width: 100%;
+    height: 63px;
 }
 .header__top {
+    width: 100%;
+    height: auto;
 }
-.header__top-line {
+.header__topLine {
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(90deg, #00c65e 25.16%, rgba(0, 198, 94, 0) 100%);
 }
-.header__top-menu {
+.header__topMenu {
 }

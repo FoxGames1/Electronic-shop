@@ -1,18 +1,20 @@
-
-import '../../css/Header/Header.module.css'
+import styles from '../../css/Header/Header.module.css';
+import logo from '/Images/Header/Header__top/Logo.png';
 
 const Header = () => {
 	return (
-		<>
-			<header className="header">
-				<div className="header__top">
-					<div className="header__top-line"></div>
-					<div className="header__top-menu">
-						
+		<header className={styles.header}>
+			<div className={styles.header__top}>
+				<div className={styles.header__topLine}></div>
+				<div className={styles.header__topMenu}>
+					<div className={styles.container}>
+						<div className={styles.menuItems}>
+							<img src={logo} alt="Logo" />
+						</div>
 					</div>
-				</div>	
-			</header>		
-		</>
+				</div>
+			</div>
+		</header>
 	);
 };
 
