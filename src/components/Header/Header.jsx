@@ -1,4 +1,6 @@
 import styles from '../../css/Header/Header.module.css';
+import Nav from './Nav';
+import Reg from './Reg';
 import logo from '/Images/Header/Header__top/Logo.png';
 
 const Header = () => {
@@ -10,6 +12,8 @@ const Header = () => {
 					<div className={styles.container}>
 						<div className={styles.menuItems}>
 							<img src={logo} alt="Logo" />
+							<Nav />
+							<Reg />
 						</div>
 					</div>
 				</div>
