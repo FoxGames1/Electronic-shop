@@ -1,11 +1,23 @@
+@import url(../variables.css);
+
 .nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1000px;
+    width: auto;
+    height: 63px;
     gap: 40px;
 }
 .link{
-    width: 175px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+    color: var(--dark-grey);
+    width: auto;
     height: auto;
+    padding: 23px 20px;
+}
+.link:hover{
+    background-color: rgba(var(--bright-green), 0.3);
 }

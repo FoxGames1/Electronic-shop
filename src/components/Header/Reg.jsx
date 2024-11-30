@@ -10,7 +10,7 @@ const Reg = () => {
         <div className={styles.register}>
             <div className={styles.dropdown}>
                 <img src={ locationIcon } alt="locationIcon" />
-                <Link to="/">Москва <img src={ locationArrow } alt="arrow" /></Link>
+                <Link className='link' to="/">Москва <img src={ locationArrow } alt="arrow" /></Link>
             </div>
             <div className={styles.registration}>
                 <img src={ registrationIcon } alt="reg" />
