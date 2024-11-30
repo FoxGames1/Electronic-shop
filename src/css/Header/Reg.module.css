@@ -1,6 +1,23 @@
 .register{
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 267px;
+    height: 21px;
+    gap: 30px;
 }
 .dropdown{
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+    height: 21px;
+}
+.registration{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.5px;
+    width: 148px;
+    height: 17px;
 }
