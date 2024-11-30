@@ -1,4 +1,4 @@
-import styles from '../../css/Header/Header.module.css';
+import styles from '../../css/Header/Reg.module.css';
 import { Link } from 'react-router-dom';
 import locationIcon from '/Images/Header/Header__top/btn/locationIcon.svg';
 import locationArrow from '/Images/Header/Header__top/btn/locationIcon_arrow.svg';

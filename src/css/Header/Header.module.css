@@ -12,5 +12,19 @@
     background: linear-gradient(90deg, #00c65e 25.16%, rgba(0, 198, 94, 0) 100%);
 }
 .header__topMenu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
 
+}
+.menuItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
 }
