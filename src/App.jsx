@@ -1,14 +1,24 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
-import Nav from './components/Header/Nav';
+import Home from './Pages/Home';
+import Service from './Pages/Service';
+import Shop from './Pages/Shop';
+import BuyBack from './Pages/BuyBack';
 import './css/App.css';
+import NotFoundPage from './Pages/NotFoundPage';
 
 function App() {
 	return (
 		<BrowserRouter>
+			<Header />
 			<Routes>
-				<Route path="*" element={<Header />} />
-				<Route path="two" element={<Nav />} />
+				<Route path='/'>
+					<Route path="home" element={<Home />} />
+					<Route path="service" element={<Service />} />
+					<Route path="shop" element={<Shop />} />
+					<Route path="buy-back" element={<BuyBack />} />
+					<Route path="*" element={<NotFoundPage />} />
+				</Route>
 			</Routes>
 		</BrowserRouter>
 	);

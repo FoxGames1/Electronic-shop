@@ -9,14 +9,14 @@ const Nav = () => {
     return (
         <nav className={styles.nav}>
             <Link 
-                className={`${styles.link} ${isActive('/') ? styles.active : ''}`} 
-                to="/"
+                className={`${styles.link} ${isActive('/home') ? styles.active : ''}`} 
+                to="/home"
             >
                 Доска объявлений
             </Link>
             <Link 
-                className={`${styles.link} ${isActive('/service-center') ? styles.active : ''}`} 
-                to="/service-center"
+                className={`${styles.link} ${isActive('/service') ? styles.active : ''}`} 
+                to="/service"
             >
                 Сервисный центр
             </Link>
