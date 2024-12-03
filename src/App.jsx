@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './components/Header/Header';
+// import Header from './components/Header/Header';
 import Home from './Pages/Home';
 import Service from './Pages/Service';
 import Shop from './Pages/Shop';
@@ -10,7 +10,6 @@ import NotFoundPage from './Pages/NotFoundPage';
 function App() {
 	return (
 		<BrowserRouter>
-			<Header />
 			<Routes>
 				<Route path='/'>
 					<Route path="home" element={<Home />} />

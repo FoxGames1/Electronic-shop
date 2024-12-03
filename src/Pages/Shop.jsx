@@ -1,10 +1,10 @@
-
+import Header from "../components/Header/Header";
 
 const shop = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <Header />
+        </>
     );
 };
 
