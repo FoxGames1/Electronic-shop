@@ -17,7 +17,7 @@
     color: var(--dark-grey);
     width: auto;
     height: auto;
-    padding: 30px 25px;
+    padding: 26px 25px;
 }
 .link:hover, .link.active{
     background-color: rgba(0, 198, 94, .3);

@@ -1,5 +1,6 @@
 import styles from '../../css/Header/Header.module.css';
 import MenuList from './Header__content/MenuList';
+import SearchItem from './Header__content/SearchItem';
 import Nav from './Nav';
 import Reg from './Reg';
 import logo from '/Images/Header/Header__top/Logo.png';
@@ -19,9 +20,12 @@ const Header = () => {
 					</div>
 				</div>
 			</div>
-			<div className={styles.header__content}>
+			<div className={"header__content"}>
 				<div className={styles.container}>
-					<MenuList />
+					<div className="FlexBox">
+						<MenuList />
+						<SearchItem />
+					</div>
 				</div>
 			</div>
 		</header>

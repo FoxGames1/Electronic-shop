@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import Header from './components/Header/Header';
 import Home from './Pages/Home';
 import Service from './Pages/Service';
 import Shop from './Pages/Shop';
@@ -11,7 +10,7 @@ function App() {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path='/'>
+				<Route path="/" element={<Shop />}>
 					<Route path="home" element={<Home />} />
 					<Route path="service" element={<Service />} />
 					<Route path="shop" element={<Shop />} />
